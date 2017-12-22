@@ -84,7 +84,7 @@ var tempWeatherObjectTOR = {
 var tempWeatherObjectOTT = {
   "coord": {
     "lon": -88.84,
-    "lat": 41.35
+    "lat": 45.45
   },
   "weather": [{
     "id": 701,

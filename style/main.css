@@ -28,3 +28,41 @@ body{
   padding:10px;
   margin:10px;
 }
+
+.mapBox *{
+  font-size:10px !important;
+}
+
+#map{
+  position:relative;
+}
+
+#map>img{
+  width:150%;
+}
+
+.mapBox img {
+  width:30px;
+}
+
+.mapBox {
+  position:absolute;
+  top:0;
+  left:0;
+  width:75px;
+  margin-top:10px;
+}
+
+.mapBox:hover{
+  background-color:grey;
+  border: solid 1px black;
+  z-index:100
+}
+
+.mapBox > *{
+  display:inline-block;
+}
+
+.mapBox span{
+  display:block;
+}
